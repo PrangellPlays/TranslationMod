@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "pstranslate",
+	"version": "${version}",
+	"name": "Plasmythic Studios Translator",
+	"description": "A translation mod being brought to Minecraft",
+	"authors": [
+		"Owner - PrangellPlays",
+		"Author - Plasmythic Studios"
+	],
+	"license": "Plasmythic Studios",
+	"icon": "assets/pstranslate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.prangellplays.pstranslate.PSTranslator"
+		],
+		"fabric-datagen": [
+			"net.prangellplays.pstranslate.PSTranslatorDataGenerator"
+		],
+		"client": [
+			"net.prangellplays.pstranslate.PSTranslatorClient"
+		],
+		"voicechat": [
+			"net.prangellplays.pstranslate.plugin.TranslatorPlugin"
+		]
+	},
+	"mixins": [
+		"pstranslate.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"voicechat": ">=1.20.1-2.4.30",
+		"midnightlib": ">=1.1.0",
+		"modmenu": ">=7.0.0"
+	},
+	"suggests": {
+	}
+}

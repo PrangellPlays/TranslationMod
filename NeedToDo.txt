@@ -1,0 +1,6 @@
+- Add an output bubble of what the player is saying
+- Add an output gui screen of what the players in the area are saying
+- Add translation support
+- Add chat translation
+- Sign/ Book TTS
+- Make it when you look at a sign it brings up a GUI with what the sign says in a bigger font
